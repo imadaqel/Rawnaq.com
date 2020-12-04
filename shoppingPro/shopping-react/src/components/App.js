@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Footer/Footer.js'; 
+import NavBar from './navBar.js'
 
 
 class App extends React.Component {
