@@ -38,6 +38,17 @@
 }
 #img {
   display: flex;
-  
-
 }
+
+.center-navbar {
+  text-align: left;
+}
+
+.center-navbar .navbar {
+  display: inline-block;
+}
+
+.center-navbar .container {
+  width: 100%;
+}
+

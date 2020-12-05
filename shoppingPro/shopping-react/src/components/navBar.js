@@ -3,10 +3,10 @@ import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div`
-  .navbar { background-color: #222; }
+  .navbar { background-color: #5DBC46; padding : 10px}
   a, .navbar-nav, .navbar-light .nav-link {
-    color: #9FFFCB;
-    &:hover { color: white; }
+    color: white;
+    &:hover { color: black; }
   }
   .navbar-brand {
     font-size: 1.4em;
@@ -23,7 +23,7 @@ const Styles = styled.div`
    return (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/">Tutorial</Navbar.Brand>
+      {/* <Navbar.Brand href="/">Tutorial</Navbar.Brand> */}
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Form className="form-center">
         <FormControl type="text" placeholder="Search" className="" />
